@@ -35,9 +35,9 @@ class Coder:
         number_of_ones = packet.count(1)
 
         if number_of_ones % 2 == 0:
-            return 0
+            return [0]
 
-        return 1
+        return [1]
 
     def check_parity_bit(self, packet, parity_bit):
         return parity_bit == self.designate_parity_bit(packet)

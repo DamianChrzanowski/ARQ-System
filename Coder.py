@@ -75,14 +75,6 @@ class Coder:
     def check_verhoeff_checksum(self, packet, verhoeff_checksum):
         return self.designate_verhoeff_checksum(packet) == verhoeff_checksum
 
-    # def _change_to_binary(self, number):
-    #     binary = [int(x) for x in bin(number)[2:]]
-    #
-    #     while len(binary) < 4:
-    #         binary.insert(0, 0)
-    #
-    #     return binary
-
     def _change_to_decimal(self, number):
         decimal = str("".join(str(x) for x in number))
         return int(decimal, 2)

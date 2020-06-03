@@ -1,0 +1,17 @@
+Opis symulacji: 
+
+Opcje:
+Liczba pakietów: 2048
+Liczba bitów w pakiecie: 65536
+Algorytm sumy kontrolnej: bit parzystoœci
+Kana³: 
+Szansa za zmianê pakietu: 
+Szansa za zmianê bitu: 
+Szansa za seriê b³êdów: 
+Szansa za rozpoczêcie serii b³êdów: 
+Szansa za zakoñczenie serii b³êdów: 
+Wyniki symulacji:
+Bitowa stopa b³êdów (BER): 7.450466911820804e-08
+Pakietowa stopa b³êdów (PER): 0.004859086491739553
+Efektywnoœæ transimisji (E): 0.9951409135082604
+Redudancja (ca³kowita nadmiarowoœæ): 
